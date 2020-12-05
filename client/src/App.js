@@ -1,12 +1,9 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 
 const App = () => {
     return (
-        <div>
-            <Container>
-                <h1>MERN App</h1>
-            </Container>
+        <div className='conatiner p-5'>
+            <h1>MERN App</h1>
         </div>
     );
 };
